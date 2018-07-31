@@ -4,7 +4,7 @@
 #
 Name     : colcon-package-information
 Version  : 0.2.1
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/70/54/1d3d1aa86a6b9e53155665e04d2b177051145aaeea598ac0ba2ecc47d48a/colcon-package-information-0.2.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/70/54/1d3d1aa86a6b9e53155665e04d2b177051145aaeea598ac0ba2ecc47d48a/colcon-package-information-0.2.1.tar.gz
 Summary  : Extension for colcon to output package information.
@@ -12,6 +12,7 @@ Group    : Development/Tools
 License  : Apache-2.0
 Requires: colcon-package-information-python3
 Requires: colcon-package-information-python
+Requires: colcon-core
 BuildRequires : buildreq-distutils3
 
 %description
@@ -43,7 +44,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1532980866
+export SOURCE_DATE_EPOCH=1533002691
 python3 setup.py build -b py3
 
 %install
