@@ -4,7 +4,7 @@
 #
 Name     : colcon-package-information
 Version  : 0.2.2
-Release  : 4
+Release  : 5
 URL      : https://files.pythonhosted.org/packages/2d/34/3571034051350571b4c885258ddb9b600ddd6abcd8cf94799f314e97a961/colcon-package-information-0.2.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/2d/34/3571034051350571b4c885258ddb9b600ddd6abcd8cf94799f314e97a961/colcon-package-information-0.2.2.tar.gz
 Summary  : Extension for colcon to output package information.
