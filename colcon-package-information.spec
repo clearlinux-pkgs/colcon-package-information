@@ -4,7 +4,7 @@
 #
 Name     : colcon-package-information
 Version  : 0.3.2
-Release  : 14
+Release  : 15
 URL      : https://files.pythonhosted.org/packages/ac/0d/66be7fc6d129b15977ad047befd544da8088f5f86ce20cfd7f145680a921/colcon-package-information-0.3.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ac/0d/66be7fc6d129b15977ad047befd544da8088f5f86ce20cfd7f145680a921/colcon-package-information-0.3.2.tar.gz
 Summary  : Extension for colcon to output package information.
@@ -51,7 +51,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1583433621
+export SOURCE_DATE_EPOCH=1583440557
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
