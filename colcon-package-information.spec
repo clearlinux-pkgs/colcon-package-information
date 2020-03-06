@@ -4,7 +4,7 @@
 #
 Name     : colcon-package-information
 Version  : 0.3.2
-Release  : 15
+Release  : 16
 URL      : https://files.pythonhosted.org/packages/ac/0d/66be7fc6d129b15977ad047befd544da8088f5f86ce20cfd7f145680a921/colcon-package-information-0.3.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ac/0d/66be7fc6d129b15977ad047befd544da8088f5f86ce20cfd7f145680a921/colcon-package-information-0.3.2.tar.gz
 Summary  : Extension for colcon to output package information.
@@ -17,10 +17,7 @@ BuildRequires : buildreq-distutils3
 BuildRequires : colcon-core
 
 %description
-colcon-package-information
 ==========================
-
-An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide information about the packages.
 
 %package python
 Summary: python components for the colcon-package-information package.
@@ -35,8 +32,8 @@ python components for the colcon-package-information package.
 Summary: python3 components for the colcon-package-information package.
 Group: Default
 Requires: python3-core
-Provides: pypi(colcon-package-information)
-Requires: pypi(colcon-core)
+Provides: pypi(colcon_package_information)
+Requires: pypi(colcon_core)
 
 %description python3
 python3 components for the colcon-package-information package.
@@ -51,8 +48,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1583440557
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583528110
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
